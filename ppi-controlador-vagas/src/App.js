@@ -1,15 +1,12 @@
-import logo from "./logo.svg";
 import "./App.css";
-import ChartBarra from "./componente/Charts";
+import ChartACLima from "./componente/ChartACLima";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <ChartBarra />
+        <ChartACLima />
       </header>
     </div>
   );
 }
-
-export default App;
