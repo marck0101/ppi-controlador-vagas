@@ -1,12 +1,14 @@
 import "./App.css";
-import ChartACLima from "./componente/ChartACLima";
+import ChartView from "./componente/google charts/ChartsGoogle";
 
-export default function App() {
+function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <ChartACLima />
+        <ChartView />
       </header>
     </div>
   );
 }
+
+export default App;
