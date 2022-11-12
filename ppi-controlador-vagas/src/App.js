@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-// import ChartView from './Chart';
+// import Chart from './component/Charts';
+import Chart from './component/Charts';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -17,8 +18,8 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
-        {/* <ChartView /> */}
+        </a> */}
+        <Chart />
       </header>
     </div>
   );
