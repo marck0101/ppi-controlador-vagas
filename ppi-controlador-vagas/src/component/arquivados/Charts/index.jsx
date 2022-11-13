@@ -21,7 +21,7 @@ const e = "VAGA 5";
 const f = "VAGA 6";
 const g = "VAGA 7";
 
-export default function Chart() {
+export default function ChartBar() {
   // const data = [
   //   {
   //     name: `${a}`,

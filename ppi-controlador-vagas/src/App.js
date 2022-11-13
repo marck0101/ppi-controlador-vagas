@@ -1,25 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import ChartBar from './component/Charts';
+import ChartLine from './react-chart';
 // import Chart from './component/Charts';
-import Chart from './component/Charts';
+// import PersistentDrawerLeft from './component/teste1/Drawer';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a> */}
-        <Chart />
+
+        <ChartBar />
+        <ChartLine/>
       </header>
     </div>
   );
