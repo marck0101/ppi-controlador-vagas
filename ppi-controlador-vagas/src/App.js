@@ -1,9 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import ChartBar from './component/Charts';
-import ChartLine from './react-chart';
+import ChartBar from './component/arquivados/Charts';
+import ChartLine from './component/react-chart';
 // import Chart from './component/Charts';
-// import PersistentDrawerLeft from './component/teste1/Drawer';
 
 function App() {
   return (

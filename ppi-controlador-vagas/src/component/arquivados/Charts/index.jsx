@@ -22,50 +22,7 @@ const f = "VAGA 6";
 const g = "VAGA 7";
 
 export default function ChartBar() {
-  // const data = [
-  //   {
-  //     name: `${a}`,
-  //     uv: 4000, // linha verde uv
-  //     pv: 2400, // linha roxa => pv
-  //     amt: 2400, // pontos nos traços
-  //   },
-  //   {
-  //     name: `${b}`,
-  //     uv: 3000, // linha verde uv
-  //     pv: 1398, // linha roxa => pv
-  //     amt: 2210, // pontos nos traços
-  //   },
-  //   {
-  //     name: `${c}`,
-  //     uv: 2000, // linha verde uv
-  //     pv: 9800, // linha roxa => pv
-  //     amt: 2290, // pontos nos traços
-  //   },
-  //   {
-  //     name: `${d}`,
-  //     uv: 2780, // linha verde uv
-  //     pv: 3908, // linha roxa => pv
-  //     amt: 2000, // pontos nos traços
-  //   },
-  //   {
-  //     name: `${e}`,
-  //     uv: 1890, // linha verde uv
-  //     pv: 4800, // linha roxa => pv
-  //     amt: 2181, // pontos nos traços
-  //   },
-  //   {
-  //     name: `${f}`,
-  //     uv: 2390, // linha verde uv
-  //     pv: 3800, // linha roxa => pv
-  //     amt: 2500, // pontos nos traços
-  //   },
-  //   {
-  //     name: `${g}`,
-  //     uv: 3490, // linha verde uv
-  //     pv: 4300, // linha roxa => pv
-  //     amt: 2100, // pontos nos traços
-  //   },
-  // ];
+ 
   const data = [
     {
       name: `${a}`,
@@ -114,20 +71,7 @@ export default function ChartBar() {
   return (
     // <ChatsStyles>
     <div className="chartContainer">
-      {/* <LineChart width={900} height={300} data={data}>
-          <XAxis dataKey="name" padding={{ left: 0, right: 0 }} />
-          <YAxis />
-          <Tooltip />
-          <Legend />
-          <Line
-            type="monotone"
-            dataKey="pv"
-            stroke="#8884d8"
-            activeDot={{ r: 1 }}
-          />
-          <Line type="monotone" dataKey="uv" stroke="#82ca9d" />
-        </LineChart> */}
-      <BarChart width={900} height={300}
+           <BarChart width={900} height={300}
         data={data}
         margin={{
           top: 5,
